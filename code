@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+table{
+    border: 1pt;
+    border-color: #D8D9DA;
+    font-size: 12pt;
+}
+header{
+    text-align: center;
+    background-color: #D6EFED;
+
+}
+</style>
+</head>
+<body>
+    <h1>Details of Employees</h1>
+    <table  border="1pt" >
+        <tr class="header">
+            <th>Employee Name</th>
+            <th>Designation</th>
+            <th>Date of Joining</th>
+            <th>Address</th>
+            <th>Salary</th>
+        </tr>
+        <xsl:for-each select="employees/employee">
+        <tr>
+            <td><xsl:value-of select="Employee_Name"/></td>
+            <td><xsl:value-of select="Designation"/></td>
+            <td><xsl:value-of select="Date_of_Joining"/></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </xsl:for-each>
+    </table>
+</body>
+</html>
