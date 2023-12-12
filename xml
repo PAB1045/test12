@@ -1,0 +1,16 @@
+<employees>
+<employee>
+<Employee_Name>Prathmesh<Employee_Name>
+<Designation>Technical Writer</Designation>
+<Date_of_Joining>2022</Date_of_Joining> 
+<Address>Pune</Address> 
+ <Salary>550000</Salary>
+ </employee>
+ <employee>
+<Employee_Name>Yash<Employee_Name>
+<Designation>Technical Writer</Designation>
+<Date_of_Joining>2021</Date_of_Joining> 
+<Address>Satara</Address> 
+ <Salary>650000</Salary>
+ </employee>
+ </employees>
